@@ -10,7 +10,7 @@ interface Props {
 const GameCard = ({ game }: Props) => {
   // zonder overflow hidden plaatje groter dan container, borderradius niet zichtbaar
   return (
-    <Card borderRadius={"10px"} overflow={"hidden"}>
+    <Card borderRadius={"11px"} overflow={"hidden"}>
       <Image src={game.background_image} />
       <CardBody>
         <Heading fontSize={"2xl"}>{game.name}</Heading>
